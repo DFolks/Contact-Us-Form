@@ -1,31 +1,35 @@
 .App {
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
 #contact-us {
-  display: flex;
+  max-width: 30%;
   flex-direction: column;
-  align-content: center;
+  border: 3px solid black;
+  margin-top: 40px;
 }
 
 input {
-  margin: 10px 40%;
+  margin: 10px 20%;
   padding: 10px;
+  width: 50%;
 }
 
-#clear,
-#submit {
-  margin: 10px 40%;
-  padding: 10px;
+#buttons {
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 #consent {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
 }
 
 #emailConsent {
+  width: 20px;
   margin-right: 5px;
 }
 

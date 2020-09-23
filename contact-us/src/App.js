@@ -138,20 +138,21 @@ function App() {
                 I agree to be contacted via email.
               </label>
             </div>
-
-            <input
-              id="clear"
-              type="button"
-              value="Clear"
-              onClick={handleClear}
-            />
-            <input
-              id="submit"
-              type="submit"
-              value="Submit"
-              onClick={(event) => handleSubmit(event)}
-              disabled={isDisabled}
-            />
+            <div id="buttons">
+              <input
+                id="clear"
+                type="button"
+                value="Clear"
+                onClick={handleClear}
+              />
+              <input
+                id="submit"
+                type="submit"
+                value="Submit"
+                onClick={(event) => handleSubmit(event)}
+                disabled={isDisabled}
+              />
+            </div>
           </form>
         </div>
       )}
