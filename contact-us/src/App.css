@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+#contact-us {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+input {
+  margin: 10px 40%;
+  padding: 10px;
+}
+
+#clear,
+#submit {
+  margin: 10px 40%;
+  padding: 10px;
+}
+
+#consent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#emailConsent {
+  margin-right: 5px;
+}
+
+#consent-label {
+  margin-top: 5px;
+}
